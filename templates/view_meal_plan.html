@@ -1,0 +1,6 @@
+<h1>Your Meal Plan</h1>
+<ul>
+    {% for meal in meal_plan.meals %}
+        <li>{{ meal.title }} - {{ meal.servings }} servings</li>
+    {% endfor %}
+</ul>

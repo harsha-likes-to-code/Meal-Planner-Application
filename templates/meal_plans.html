@@ -1,0 +1,14 @@
+<form method="POST" action="{{ url_for('meal_plans') }}">
+    <!-- Example form fields for meal plan preferences -->
+    <label for="preferences">Preferences</label>
+    <input type="text" name="preferences" id="preferences" required>
+    
+    <label for="duration">Duration</label>
+    <select name="duration" id="duration">
+        <option value="weekly">Weekly</option>
+        <option value="monthly">Monthly</option>
+    </select>
+    
+    <button type="submit">Create Meal Plan</button>
+</form>
+

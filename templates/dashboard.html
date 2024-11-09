@@ -1,0 +1,12 @@
+<!-- templates/dashboard.html -->
+<h1>Dashboard</h1>
+<p>Welcome to your meal planner dashboard!</p>
+
+<!-- Link to profile page to edit details -->
+<a href="{{ url_for('profile') }}">Edit Profile</a> | 
+<!-- Link to create a new meal plan -->
+<a href="{{ url_for('meal_plans') }}">Create a New Meal Plan</a> | 
+<!-- Logout link -->
+<a href="{{ url_for('logout') }}">Logout</a>
+
+

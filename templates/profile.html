@@ -1,0 +1,12 @@
+<!-- templates/profile.html -->
+<h1>Edit Profile</h1>
+<form method="POST" action="/profile">
+    <label>Name:</label><br>
+    <input type="text" name="name" value="{{ user.name }}"><br>
+    <label>Dietary Preferences:</label><br>
+    <input type="text" name="dietary_preferences" value="{{ user.dietary_preferences }}"><br>
+    <label>Restrictions:</label><br>
+    <input type="text" name="restrictions" value="{{ user.restrictions }}"><br><br>
+    <input type="submit" value="Update Profile">
+</form>
+
